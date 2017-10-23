@@ -1,0 +1,2 @@
+start sysinfo.lnk
+exit

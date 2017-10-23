@@ -1,0 +1,206 @@
+--------------------------
+changes from v1.1 to v1.2
+--------------------------
+
+Added webpage to av removal tools not already in the program and not commonly used.
+
+added "cl" option to view the change log itself.
+
+added download for tdsskiller(n)<---notice the "n"
+
+added options to open adobe flash player and adobe reader main download pages
+
+added "Page 2 (other links/tools)" with support for going back to main menu and
+auto running it as admin just like the initial open.
+
+added Folder to start menu programs folder called "Advanced Tech Support" 
+which includes the batch file to reset internet stuff like winsock, 
+take the customer straight to the fix22 page using I.E., run team viewer
+(might have to do as admin), reboot computer, and ping tests for google.com,
+and yahoo.com to determine connectivity status.
+
+made the installer silent, in other words there is no install dialog presented.
+When clicked, the ats toolkit with extract the tools to c:\TOOLS automatically,
+and then open the menu. 
+
+there are 2 hidden options also (like the change log) they are 913 and 78
+913 runs the windows for every tune up step automatically including disabling 
+uac, opening the system properties window for adjusting virtual memory, running 
+the reg tweak for faster shutdowns, clearing the event viewer, opening internet 
+properties for browser reset, opeing "my computer" or "computer" in vista and 7, for 
+disabling the indexing service, and runs msconfig.
+
+78 runs tfc and ccleaner together...
+
+and it wont open more than 2 at once, so you can finish settings for one and the 
+next opens on the close of the first.
+-----------------------------
+changes from V1.2 to V1.3
+-----------------------------
+
+Added company webpages for pages that are to be displayed on completion of the work...
+These options are listed under "Work completed links" and are options 30 and 31.
+
+added silent java install hidden option for techs, the command to run it is "sj" (without the quotes).
+
+added version number above all the option inside the actual tool.
+
+-----------------------------
+changes from V1.3 to V1.4
+-----------------------------
+Added message on tool so customers won't be concerned or touch any of the options.
+
+added winrar and 7zip downloads (for 32 and 64bit) (which also run them) under page 2 (option 23)
+
+fixed page 2 opening script that was not closing the menu file.
+
+fixed page 2 returning to menu file so that it does it elevated (as admin)
+
+fixed tfc so it no longer deletes restore points, but still auto runs.
+
+-----------------------------
+changes from V1.4 to V1.4.1
+-----------------------------
+Tdss updated, so addded that to the archive.
+Java updated, so addded that to the archive.
+Changed name of tool to TOOLKIT rather than ATS-TOOLKIT
+moved to 3 section version numbers, for example  1.1.1 rather than 1.1 so I don't go through numbers too fast.
+
+-----------------------------
+changes from V1.4.1 to V1.4.2
+-----------------------------
+Fixed elevation issue when menu file starts on vista and windows 7, somehow the old file was changed and not running it as admin.
+This issue was caught by Harold.
+
+Updated Ccleaner as well.
+
+-----------------------------
+changes from V1.4.2 to V1.4.3
+-----------------------------
+Added Java downloads and 32 or 64bit check, so that it downloads from my site not the java site itself.
+
+-----------------------------
+changes from V1.4.3 to V1.4.4
+-----------------------------
+Updated mbam.exe due to them releasing an update.
+Re-added old done message via hidden option "od" in case new one takes forever or browser is too cluttered.
+updated java download to java 7 update 7.
+added tag.bat to opening of tool.
+updated unhide utility to latest version.
+added option 123 which runs mbam, hitman, and tdss all at once for working on faster systems...
+added hidden option "ar" which opens add/remove programs.
+updated norton removal tool.
+-----------------------------
+changes from V1.4.4 to V1.4.5
+-----------------------------
+ on page 2 (next page option 32)
+
+* Added all windows service packs for xp, and vista (one button download and run exe)
+for windows 7 sp1 it's best to use windows updates. There are issues with them in some cases and it is not consistent.
+
+* Added internet explorer 9 download and run options for vista and Win 7 32 and 64 bit, and added ie8 download and run for xp.
+
+* added unlocker 32 and 64 bit to "page 2" as well.
+
+Other additions
+
+Updated TDSS to new version.
+added silent install of firefox as option 23
+added next page option as option 32
+added procexp (64 bit compatible also) as a .com file, to run an alternate task manager to view running processes even on an infected machine.
+updated malware bytes to latest version
+made the done message display the same page but as an image (png file) rather than using the browser.
+made the done message delete the calling card (advanced tech support icon) THIS PART WAS PER EDWIN !!!
+made tdss run as a .com file and with a random name (qwertyuiopasdfghjkl.com) some infections can detect tdss by name so...
+-----------------------------
+changes from V1.4.5 to V1.4.6
+-----------------------------
+changes per EDWIN !!!
+
+*changed option 1 text to say Install MBAM instead of "Install Malware Bytes"
+
+*Changed firefox option to not include the word silent...(option 23)
+
+*changed the wording on total uninstall option to just say "Install Uninstaller App" (please note also that the version of total uninstall is now older on purpose, for the purpose of using options that were changed to paid ones on the new version...old one lets you use those options.
+
+Changes by Tom
+
+*Condensed the page 2 menu to include only one option for the tool being used, made it check automatically for 32 or 64 bit on each of those options.
+
+-----------------------------
+changes from V1.4.6 to V1.4.7
+-----------------------------
+---* Replaced version specific AVG removal tool, now checks for 32 bit or 64 bit.
+---* Change colors of menu to mimic CMD color scheme (black and white)
+---* Updated MBAM version TO 1.65 released (11 Sep 2012)
+---* Updated Ccleaner version to v3.23.1823 Released (25 Sep 2012)
+---* Removed TDSS
+---* Removed Safemode installs
+---* Added Install java in safe mode option
+---* Removed Combofix
+---* Removed Create restore point
+---* Removed Network resets
+---* Removed tdss N
+---* Removed tune up steps
+---* Removed page 2 of tool
+---* added File association fixes per OS
+---* added uninstall MBAM
+---* added individual options for ie reset and system properties to adjust virtual mem.
+----------------------------------------------------------------
+changes from V1.4.7 to V1.4.8 (including 1.4.8.1, and 1.4.8.2)
+----------------------------------------------------------------
+tdss, mbam, and hitman having been updated.
+added option for general tech support work completed.
+
+--------------------------------
+changes from V1.4.8.2 to V1.4.9
+--------------------------------
+
+Removed Advanced Tech Support Folder in start menu programs and put it in c:\ instead per Edwin. Also hid the files except the connect file so the customer can click it but not try to use the others...
+
+Updated mbam, hitman, and tdss. 
+
+Updated ccleaner.
+
+Added the updater to the tool so it updates itself, and prompts the user to download updates if available.
+
+fixed issue with 2 of the file association fixes options cause they were doing the wrong os...just had to swap the order cause they were reversed on accident.
+
+Updated flash plugin installers to 11.5 from adobe.
+
+added option that kills internet explorer before opening the internet properties to reset the browser.
+
+added option for vista and windows 7 which allows for right clicking on the desktop to restart the tool, as well as an option to "reconnect to technician" which uses internet explorer and goes straight to the support connection website.  
+
+added option for windows xp when right clicking on "any folder" to get the option to "reconnect to technician" which uses internet explorer and goes straight to the support connection website.
+
+---------------------------------------------------------
+changes from V1.4.9 to V1.5 Update Released On 12/31/12
+---------------------------------------------------------
+
+*Fixed 913 so that it waits for one thing to finish before starting the next. (tested on xp vista and 7)
+I also removed the uac disable cmd window that says "the operation completed sucessfully" but it still does it and just closes. Also made the event viewer cleaner auto close when done cleaning.
+
+Made the uac disable a quick flash rather than the user having to close the cmd window for it (this was the one that said the operation completed successfully)
+
+Fixed something on the work completed options to make the menu close on it's own more often...
+
+Made the windows xp file association fixes a zip file with reg files like the others rather than the crappy bat file that was not working too well.
+
+Made the option that runs tfc and ccleaner at the same time "89" rather than 67. This is how they are on the menu...
+
+add gcustom browser to files that get moved to c:\Advanced Tech Support for easier reconnects during escalations...this is useful when customer has no working browser or browsers lock up.
+
+*added mouse emulator to c:\ as a hidden file. This allows a customer to use the number pad keys on the right side of the keyboard as a mouse if their mouse quits working...8, 5, 4, 6 as up down left and right, 1 for left click and 2 for right click...they can simply do a run box windows + R and type c:\mouse.exe to start the app...total size 28kb...
+
+*completely removed 123 option and it's functions, due to the fact that the tdss part was still working and had no purpose.
+
+*changed a few auto checked boxes in ccleaner per Edwin.
+
+
+
+
+ 
+
+
+

